@@ -1,13 +1,11 @@
-'use client'
-
-import { products } from '@/lib/products'
-import HeroSection from '@/pages/home/components/HeroSection'
-import BrandPromise from '@/pages/home/components/BrandPromise'
-import RitualTimeline from '@/pages/home/components/RitualTimeline'
-import BestSellers from '@/pages/home/components/BestSellers'
-import Testimonials from '@/pages/home/components/Testimonials'
-import IngredientsSpotlight from '@/pages/home/components/IngredientsSpotlight'
-import CTASection from '@/pages/home/components/CTASection'
+import { products } from '@/data/products'
+import HeroSection from './components/HeroSection'
+import BrandPromise from './components/BrandPromise'
+import RitualTimeline from './components/RitualTimeline'
+import BestSellers from './components/BestSellers'
+import Testimonials from './components/Testimonials'
+import IngredientsSpotlight from './components/IngredientsSpotlight'
+import CTASection from './components/CTASection'
 
 export default function HomePage() {
   const bestsellers = products.slice(0, 3)

@@ -1,4 +1,4 @@
-'use client'
+
 
 import { Link, useParams } from 'react-router-dom'
 import { useProductDetails } from '@/pages/product/hooks/useProductDetails'

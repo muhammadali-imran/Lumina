@@ -1,4 +1,4 @@
-'use client'
+
 
 import { useCart } from '@/context/useCart'
 import { useCartTotals } from '@/pages/cart/hooks/useCartTotals'

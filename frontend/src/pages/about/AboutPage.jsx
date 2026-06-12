@@ -1,4 +1,4 @@
-'use client'
+
 
 import FounderStory from '@/pages/about/components/FounderStory'
 import Philosophy from '@/pages/about/components/Philosophy'

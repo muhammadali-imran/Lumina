@@ -1,4 +1,4 @@
-'use client'
+
 
 import ContactInfo from '@/pages/contact/components/ContactInfo'
 import ContactForm from '@/pages/contact/components/ContactForm'

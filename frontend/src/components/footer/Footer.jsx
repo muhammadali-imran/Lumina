@@ -41,7 +41,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-70">
-            <p>&copy; 2024 Lumina. All rights reserved.</p>
+            <p>&copy; 2026 Lumina. All rights reserved to <a href= "#" >"Muhammad Ali Imran"</a> </p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-primary transition">
                 Privacy Policy
