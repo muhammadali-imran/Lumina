@@ -12,7 +12,7 @@ const companyLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Contact', href: '/contact' },
   { label: 'FAQ', href: '/contact#faq' },
-  { label: 'Returns', href: null }, // static #
+  { label: 'Returns', href: null }, 
 ]
 
 export default function Footer() {
