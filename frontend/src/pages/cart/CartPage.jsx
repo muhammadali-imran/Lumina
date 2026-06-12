@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-router-dom'
 import { useCart } from '@/context/useCart'
 import { useCartTotals } from '@/pages/cart/hooks/useCartTotals'
 import EmptyCart from '@/pages/cart/components/EmptyCart'
@@ -29,7 +29,17 @@ export default function CartPage() {
                 total={total}
               />
             </div>
+            
           )}
+          <div className="mt-12 text-center">
+            <Link
+        to="/shop"
+        className="block text-center px-6 py-3 border-2 border-primary text-primary font-semibold rounded hover:bg-primary hover:text-primary-foreground transition"
+      >
+        Continue Shopping
+      </Link>
+      </div>
+
         </div>
       </main>
   )

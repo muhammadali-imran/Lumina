@@ -1,9 +1,13 @@
-
-
+import { useCart } from '@/context/useCart';
 import { useState } from 'react'
+
 
 export default function ProductHero({ product }) {
   const [quantity, setQuantity] = useState(1)
+  const { addItem } = useCart();
+  const handleClick = () => {
+  addItem(product, quantity);
+};
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
@@ -65,7 +69,10 @@ export default function ProductHero({ product }) {
               +
             </button>
           </div>
-          <button className="flex-1 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded hover:opacity-90 transition">
+          <button 
+            onClick={handleClick}
+            className="flex-1 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded border-2 border-primary shadow-sm hover:opacity-90 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
+          >
             Add to Cart
           </button>
         </div>

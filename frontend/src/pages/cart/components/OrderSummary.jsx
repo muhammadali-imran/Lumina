@@ -1,8 +1,8 @@
+import { useCart } from '@/context/useCart';
 
-
-import { Link } from 'react-router-dom'
 
 export default function OrderSummary({ subtotal, shipping, tax, total }) {
+  const { clearCart } = useCart();
   return (
     <div className="bg-background p-8 rounded-lg border border-border h-fit sticky top-32">
       <h2 className="text-heading text-xl font-bold mb-6">Order Summary</h2>
@@ -29,16 +29,14 @@ export default function OrderSummary({ subtotal, shipping, tax, total }) {
         </span>
       </div>
 
-      <button className="w-full px-6 py-3 bg-primary text-primary-foreground font-semibold rounded hover:opacity-90 transition mb-4">
-        Proceed to Checkout
-      </button>
+      <button 
+  onClick={clearCart}
+  className="w-full px-6 py-3 bg-primary text-primary-foreground font-semibold rounded hover:opacity-90 transition mb-4"
+>
+  Checkout
+</button>
 
-      <Link
-        to="/shop"
-        className="block text-center px-6 py-3 border-2 border-primary text-primary font-semibold rounded hover:bg-primary hover:text-primary-foreground transition"
-      >
-        Continue Shopping
-      </Link>
+
     </div>
   )
 }
