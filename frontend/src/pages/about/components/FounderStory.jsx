@@ -3,20 +3,20 @@
 export default function FounderStory() {
   return (
     <section className="mb-20">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className=" items-center">
         {/* Image */}
-        <div className="relative h-96 lg:h-full rounded-lg overflow-hidden bg-muted">
+        {/* <div className="relative h-96 lg:h-full rounded-lg overflow-hidden bg-muted">
           <img
             src="/about-founder.png"
             alt="Founder"
             className="w-full h-full object-cover"
             loading="lazy"
           />
-        </div>
+        </div> */}
 
         {/* Content */}
-        <div>
-          <h2 className="text-heading text-4xl font-bold mb-6">Founded by Vision</h2>
+        <div className="mb-16 text-center max-w-3xl mx-auto">
+          <h2 className="text-center text-heading text-4xl font-bold mb-6">Founded by Vision</h2>
           <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
             Lumina was founded on the belief that luxury skincare shouldn&apos;t compromise on
             science. Every product is meticulously formulated by our team of dermatologists and

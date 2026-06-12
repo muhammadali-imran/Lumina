@@ -2,9 +2,9 @@
 
 import FounderStory from '@/pages/about/components/FounderStory'
 import Philosophy from '@/pages/about/components/Philosophy'
-import Timeline from '@/pages/about/components/Timeline'
+// import Timeline from '@/pages/about/components/Timeline'
 import Values from '@/pages/about/components/Values'
-import Team from '@/pages/about/components/Team'
+// import Team from '@/pages/about/components/Team'
 
 export default function AboutPage() {
   return (
@@ -22,9 +22,9 @@ export default function AboutPage() {
           {/* Sections */}
           <FounderStory />
           <Philosophy />
-          <Timeline />
+          {/* <Timeline /> */}
           <Values />
-          <Team />
+          {/* <Team /> */}
         </div>
       </main>
   )

@@ -6,72 +6,72 @@
   --font-heading: var(--font-playfair);
   --font-sans: var(--font-inter), sans-serif;
   --font-mono: var(--font-inter), monospace;
-  --background: #faf9f7;
-  --foreground: #1a1410;
-  --card: #ffffff;
-  --card-foreground: #1a1410;
+  --background: #fffbeb; /* Creamy Pearl background */
+  --foreground: #451a03; /* Rich Espresso headings/text */
+  --card: #ffffff; /* Crisp white for product cards to stand out */
+  --card-foreground: #451a03;
   --popover: #ffffff;
-  --popover-foreground: #1a1410;
-  --primary: #d4af37;
-  --primary-foreground: #1a1410;
-  --secondary: #e8a8a8;
-  --secondary-foreground: #1a1410;
-  --muted: #e8e4e0;
-  --muted-foreground: #6b6259;
-  --accent: #d4af37;
-  --accent-foreground: #1a1410;
-  --destructive: #d84848;
-  --border: #e8e4e0;
+  --popover-foreground: #451a03;
+  --primary: #c2410c; /* Deep Apricot/Terracotta for major CTAs like "Add to Cart" */
+  --primary-foreground: #ffffff; /* High contrast text on primary buttons */
+  --secondary: #fda4af; /* Soft Blush/Rose Pink for accents and tags */
+  --secondary-foreground: #451a03;
+  --muted: #fef3c7; /* Soft amber/cream hue for muted areas */
+  --muted-foreground: #78350f; /* Mid-tone warm brown for descriptions */
+  --accent: #f97316; /* Glowing, energetic orange/peach accent */
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --border: #fde68a; /* Soft, warm border lines instead of cold grey */
   --input: #ffffff;
-  --ring: #d4af37;
-  --chart-1: #d4af37;
-  --chart-2: #e8a8a8;
-  --chart-3: #c5b8af;
-  --chart-4: #8b7d73;
-  --chart-5: #5a4d43;
+  --ring: #c2410c;
+  --chart-1: #c2410c;
+  --chart-2: #fda4af;
+  --chart-3: #f97316;
+  --chart-4: #b45309;
+  --chart-5: #78350f;
   --radius: 0.5rem;
-  --sidebar: #faf9f7;
-  --sidebar-foreground: #1a1410;
-  --sidebar-primary: #d4af37;
-  --sidebar-primary-foreground: #1a1410;
-  --sidebar-accent: #e8a8a8;
-  --sidebar-accent-foreground: #1a1410;
-  --sidebar-border: #e8e4e0;
-  --sidebar-ring: #d4af37;
+  --sidebar: #fefcbf;
+  --sidebar-foreground: #451a03;
+  --sidebar-primary: #c2410c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #fda4af;
+  --sidebar-accent-foreground: #451a03;
+  --sidebar-border: #fde68a;
+  --sidebar-ring: #c2410c;
 }
 
 .dark {
-  --background: #0f0d0b;
-  --foreground: #f5f3f0;
-  --card: #1a1410;
-  --card-foreground: #f5f3f0;
-  --popover: #1a1410;
-  --popover-foreground: #f5f3f0;
-  --primary: #d4af37;
-  --primary-foreground: #0f0d0b;
-  --secondary: #e8a8a8;
-  --secondary-foreground: #f5f3f0;
-  --muted: #3d3632;
-  --muted-foreground: #a9a09a;
-  --accent: #d4af37;
-  --accent-foreground: #0f0d0b;
-  --destructive: #e85c5c;
-  --border: #3d3632;
-  --input: #2a2520;
-  --ring: #d4af37;
-  --chart-1: #d4af37;
-  --chart-2: #e8a8a8;
-  --chart-3: #a9a09a;
-  --chart-4: #7a7169;
-  --chart-5: #5a4d43;
-  --sidebar: #1a1410;
-  --sidebar-foreground: #f5f3f0;
-  --sidebar-primary: #d4af37;
-  --sidebar-primary-foreground: #0f0d0b;
-  --sidebar-accent: #e8a8a8;
-  --sidebar-accent-foreground: #f5f3f0;
-  --sidebar-border: #3d3632;
-  --sidebar-ring: #d4af37;
+  --background: #1c0d02; /* Extremely deep, luxurious dark coffee background */
+  --foreground: #fef3c7; /* Soft warm cream for high readability text */
+  --card: #2c1404; /* Slightly lighter espresso brown for cards */
+  --card-foreground: #fef3c7;
+  --popover: #2c1404;
+  --popover-foreground: #fef3c7;
+  --primary: #ea580c; /* Glowing vibrant apricot for dark mode CTAs */
+  --primary-foreground: #1c0d02;
+  --secondary: #fb7185; /* Vibrant rose for dark mode highlights */
+  --secondary-foreground: #1c0d02;
+  --muted: #451a03;
+  --muted-foreground: #d97706;
+  --accent: #ea580c;
+  --accent-foreground: #1c0d02;
+  --destructive: #ef4444;
+  --border: #451a03;
+  --input: #2c1404;
+  --ring: #ea580c;
+  --chart-1: #ea580c;
+  --chart-2: #fb7185;
+  --chart-3: #f97316;
+  --chart-4: #a16207;
+  --chart-5: #78350f;
+  --sidebar: #2c1404;
+  --sidebar-foreground: #fef3c7;
+  --sidebar-primary: #ea580c;
+  --sidebar-primary-foreground: #1c0d02;
+  --sidebar-accent: #fb7185;
+  --sidebar-accent-foreground: #fef3c7;
+  --sidebar-border: #451a03;
+  --sidebar-ring: #ea580c;
 }
 
 *, *::before, *::after {

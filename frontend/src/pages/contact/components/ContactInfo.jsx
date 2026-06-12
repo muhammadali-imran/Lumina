@@ -9,17 +9,12 @@ export default function ContactInfo() {
     },
     {
       title: 'Phone',
-      content: '+1 (555) 123-4567',
+      content: '+92 123 456 7890',
       icon: '📞',
     },
     {
-      title: 'Hours',
-      content: 'Monday - Friday: 9AM - 6PM PST',
-      icon: '🕐',
-    },
-    {
       title: 'Address',
-      content: 'San Francisco, CA',
+      content: 'Pakistan',
       icon: '📍',
     },
   ]
